@@ -12,7 +12,7 @@ const app = express()
 
 // • Declare variables
 const MONGO_DB = 'mongodb://127.0.0.1/MEAN-Template-app'
-const PORT = 3000
+const PORT = 8000
 
 
 try {
@@ -26,7 +26,8 @@ try {
   // • `/dist` is default file output of ng build command. You can change
   // that on `angular-cli.json` config file but don't forget to change below line
   // too or server will not be able to locate our front-end part of application.
-  app.use(express.static(path.join(__dirname, 'dist')))
+  console.log(__dirname);
+  app.use(express.static(path.join(__dirname, '/dist')))
 
   // • This is a special method called `middleware`. Every request will be
   // executed on each request. If you want to exclude a specific route to make it
