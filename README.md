@@ -1,9 +1,3 @@
----
-title: MEAN Stack template application
-Author: Agon Gashi (agonxgashi)
-Tags: MEAN Stack application template
----
-
 # MEAN-template
 **A simple (MongoDB, Express, Angular, Node) application template that works.**
 
@@ -38,7 +32,6 @@ directory paths.*
 + **/repo**: *Contains mongoose Schemas*
 + **/server**: *Files to be used on server-side*
     * **/routes**: *Declared routes to be imported on ```index.js```*
-+ **/license**: *Feel free to use. Repo comes with MIT license* 😎
 + **/index.js**: *File that is used to start the node server*
 
 
@@ -53,7 +46,3 @@ directory paths.*
 + Run ```ng build``` to generate Angular necessary files. Output files are by default created on ```/dist``` subfolder
 + Now run ```node index.js``` This is the last step and if everything goes right, the server will start listening for requests
 + You can open your browser and navigate to localhost:3000 to see if the application works
-
-___
-
-Feel free to fork this repo or contact me on [Telegram](http://t.me/agonxgashi)
