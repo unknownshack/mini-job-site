@@ -1,5 +1,5 @@
 {
-  "name": "mean-template",
+  "name": "mini-job-site",
   "version": "2.0.0",
   "description": "A MEAN Stack (Mongo, Express, Angular, Node) simple application template",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agonxgashi/MEAN-template.git"
+    "url": "git+https://github.com/unknownshack/mini-job-site.git"
   },
   "keywords": [
     "mean",
@@ -20,12 +20,12 @@
     "simple",
     "github"
   ],
-  "author": "Agon <agonxgashi@gmail.com>",
+  "author": "kawarirahul@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/agonxgashi/MEAN-template/issues"
+    "url": "https://github.com/unknownshack/mini-job-site.git"
   },
-  "homepage": "https://github.com/agonxgashi/MEAN-template#readme",
+  "homepage": "https://github.com/unknownshack/mini-job-site.git#readme",
   "dependencies": {
     "@angular/animations": "~15.2.1",
     "@angular/common": "~15.2.1",
