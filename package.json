@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ng build && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:window": "start https://localhost:8000 && npx nodemon --watch src index.js"
+    "start:window": "start http://localhost:8000 && npx nodemon --watch src index.js"
   },
   "repository": {
     "type": "git",

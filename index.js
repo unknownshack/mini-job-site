@@ -27,7 +27,7 @@ try {
   // that on `angular-cli.json` config file but don't forget to change below line
   // too or server will not be able to locate our front-end part of application.
   console.log(__dirname);
-  app.use(express.static(path.join(__dirname, '/dist')))
+  app.use(express.static(path.join(__dirname, 'dist')))
 
   // • This is a special method called `middleware`. Every request will be
   // executed on each request. If you want to exclude a specific route to make it
